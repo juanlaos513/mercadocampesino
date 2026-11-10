@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "CLI-001",
+    "nombre": "Laura Valencia",
+    "tipo": "Persona",
+    "email": "laura.valencia@correo.co",
+    "direccion": {"ciudad": "Cali", "barrio": "Granada", "direccion": "Av. 6N #25-40"},
+    "preferencias": ["Café", "Otros"]
+  },
+  {
+    "_id": "CLI-002",
+    "nombre": "Andrés Restrepo",
+    "tipo": "Persona",
+    "email": "andres.restrepo@correo.co",
+    "direccion": {"ciudad": "Cali", "barrio": "San Fernando", "direccion": "Cra 34 #5-12"},
+    "preferencias": ["Panela", "Café"]
+  },
+  {
+    "_id": "CLI-003",
+    "nombre": "Camila Gómez",
+    "tipo": "Persona",
+    "email": "camila.gomez@correo.co",
+    "direccion": {"ciudad": "Popayán", "barrio": "Centro", "direccion": "Cl 5 #4-30"},
+    "preferencias": ["Quesillo", "Fresa"]
+  },
+  {
+    "_id": "CLI-004",
+    "nombre": "Julián Ortiz",
+    "tipo": "Persona",
+    "email": "julian.ortiz@correo.co",
+    "direccion": {"ciudad": "Popayán", "barrio": "Bolívar", "direccion": "Cra 9 #12-18"},
+    "preferencias": ["Panela"]
+  },
+  {
+    "_id": "CLI-005",
+    "nombre": "Restaurante La Hacienda",
+    "tipo": "Restaurante",
+    "email": "compras@lahacienda.co",
+    "direccion": {"ciudad": "Cali", "barrio": "Ciudad Jardín", "direccion": "Cl 18 #100-25"},
+    "preferencias": ["Café", "Quesillo", "Otros"]
+  },
+  {
+    "_id": "CLI-006",
+    "nombre": "Restaurante El Fogón Payanés",
+    "tipo": "Restaurante",
+    "email": "contacto@elfogon.co",
+    "direccion": {"ciudad": "Popayán", "barrio": "La Esmeralda", "direccion": "Cra 7 #20-45"},
+    "preferencias": ["Fresa", "Quesillo"]
+  },
+  {
+    "_id": "CLI-007",
+    "nombre": "Tienda Naturista Vida Sana",
+    "tipo": "Tienda",
+    "email": "info@vidasana.co",
+    "direccion": {"ciudad": "Cali", "barrio": "Versalles", "direccion": "Av. 4N #40-15"},
+    "preferencias": ["Panela", "Otros", "Café"]
+  },
+  {
+    "_id": "CLI-008",
+    "nombre": "Tienda El Campo",
+    "tipo": "Tienda",
+    "email": "tiendaelcampo@correo.co",
+    "direccion": {"ciudad": "Popayán", "barrio": "Modelo", "direccion": "Cl 3 #8-22"},
+    "preferencias": ["Panela", "Café"]
+  }
+]

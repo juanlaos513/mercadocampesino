@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "PRD-001",
+    "nombre": "Asociación Cafeteros de Tierradentro",
+    "tipo": "Asociación",
+    "activo": true,
+    "ubicacion": {"municipio": "Inzá", "departamento": "Cauca", "vereda": "Tierradentro", "altitud_msnm": 1800},
+    "contacto": {"telefono": "3101234501", "email": "cafeteros.tierradentro@correo.co"},
+    "certificaciones": [{"nombre": "Orgánico", 
+    "entidad": "Biocert", 
+    "vigente_hasta": {"$date": "2027-06-30T00:00:00Z"}}, {"nombre": "Comercio Justo", "entidad": "Fairtrade", "vigente_hasta": {"$date": "2026-12-15T00:00:00Z"}}]
+  },
+  {
+    "_id": "PRD-002",
+    "nombre": "Familia Tunubalá",
+    "tipo": "Familia",
+    "activo": true,
+    "ubicacion": {"municipio": "Silvia", "departamento": "Cauca", "vereda": "Pueblito", "altitud_msnm": 2600},
+    "contacto": {"telefono": "3112345602", "email": "tunubala.silvia@correo.co"},
+    "certificaciones": [{"nombre": "Buenas Prácticas Agrícolas", "entidad": "ICA", "vigente_hasta": {"$date": "2027-03-01T00:00:00Z"}}]
+  },
+  {
+    "_id": "PRD-003",
+    "nombre": "Finca La Esperanza",
+    "tipo": "Familia",
+    "activo": true,
+    "ubicacion": {"municipio": "Pitalito", "departamento": "Huila", "vereda": "Bruselas", "altitud_msnm": 1300},
+    "contacto": {"telefono": "3123456703", "email": "laesperanza.pitalito@correo.co"},
+    "certificaciones": [{"nombre": "Rainforest Alliance", "entidad": "Rainforest Alliance", "vigente_hasta": {"$date": "2026-08-20T00:00:00Z"}}, {"nombre": "Orgánico", "entidad": "Biocert", "vigente_hasta": {"$date": "2026-03-10T00:00:00Z"}}]
+  },
+  {
+    "_id": "PRD-004",
+    "nombre": "Asociación Paneleros de Timbío",
+    "tipo": "Asociación",
+    "activo": true,
+    "ubicacion": {"municipio": "Timbío", "departamento": "Cauca", "vereda": "La Chorrera", "altitud_msnm": 1750},
+    "contacto": {"telefono": "3134567804", "email": "paneleros.timbio@correo.co"},
+    "certificaciones": [{"nombre": "INVIMA", "entidad": "INVIMA", "vigente_hasta": {"$date": "2027-09-01T00:00:00Z"}}]
+  },
+  {
+    "_id": "PRD-005",
+    "nombre": "Familia Muñoz Ortega",
+    "tipo": "Familia",
+    "activo": true,
+    "ubicacion": {"municipio": "Popayán", "departamento": "Cauca", "vereda": "Santa Rosa", "altitud_msnm": 1738},
+    "contacto": {"telefono": "3145678905", "email": "munozortega.popayan@correo.co"},
+    "certificaciones": []
+  },
+  {
+    "_id": "PRD-006",
+    "nombre": "Asociación Mujeres Apicultoras de Silvia",
+    "tipo": "Asociación",
+    "activo": false,
+    "ubicacion": {"municipio": "Silvia", "departamento": "Cauca", "vereda": "Ovejera", "altitud_msnm": 2500},
+    "contacto": {"telefono": "3156789006", "email": "mujeres.silvia@correo.co"},
+    "certificaciones": []
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "_id": "PROD-001",
+    "nombre": "Café Especial Tierradentro 500g",
+    "categoria": "Café",
+    "productor_id": "PRD-001",
+    "precio": {"valor": 38000, "moneda": "COP", "unidad": "500 g"},
+    "inventario": {"stock": 120, "bodega": "Popayán"},
+    "etiquetas": ["café", "orgánico", "especial"],
+    "atributos": {"variedad": "Caturra", "altitud_msnm": 1800, "tueste": "Medio", "puntaje_taza": 86}
+  },
+  {
+    "_id": "PROD-002",
+    "nombre": "Café Pergamino Orgánico 1kg",
+    "categoria": "Café",
+    "productor_id": "PRD-001",
+    "precio": {"valor": 56000, "moneda": "COP", "unidad": "kg"},
+    "inventario": {"stock": 60, "bodega": "Popayán"},
+    "etiquetas": ["café", "orgánico", "pergamino"],
+    "atributos": {"variedad": "Castillo", "proceso": "Lavado"}
+  },
+  {
+    "_id": "PROD-003",
+    "nombre": "Café Huila Honey 500g",
+    "categoria": "Café",
+    "productor_id": "PRD-003",
+    "precio": {"valor": 42000, "moneda": "COP", "unidad": "500 g"},
+    "inventario": {"stock": 90, "bodega": "Pitalito"},
+    "etiquetas": ["café", "honey", "especial"],
+    "atributos": {"variedad": "Typica", "proceso": "Honey", "tueste": "Claro"}
+  },
+  {
+    "_id": "PROD-004",
+    "nombre": "Café Molido Tradicional 250g",
+    "categoria": "Café",
+    "productor_id": "PRD-003",
+    "precio": {"valor": 18000, "moneda": "COP", "unidad": "250 g"},
+    "inventario": {"stock": 200, "bodega": "Pitalito"},
+    "etiquetas": ["café", "molido"]
+  },
+  {
+    "_id": "PROD-005",
+    "nombre": "Panela Redonda 1kg",
+    "categoria": "Panela",
+    "productor_id": "PRD-004",
+    "precio": {"valor": 7500, "moneda": "COP", "unidad": "kg"},
+    "inventario": {"stock": 300, "bodega": "Timbío"},
+    "etiquetas": ["panela", "tradicional"]
+  },
+  {
+    "_id": "PROD-006",
+    "nombre": "Panela Pulverizada 500g",
+    "categoria": "Panela",
+    "productor_id": "PRD-004",
+    "precio": {"valor": 6000, "moneda": "COP", "unidad": "500 g"},
+    "inventario": {"stock": 150, "bodega": "Timbío"},
+    "etiquetas": ["panela", "pulverizada"]
+  },
+  {
+    "_id": "PROD-007",
+    "nombre": "Panela Saborizada Jengibre 500g",
+    "categoria": "Panela",
+    "productor_id": "PRD-004",
+    "precio": {"valor": 9500, "moneda": "COP", "unidad": "500 g"},
+    "inventario": {"stock": 0, "bodega": "Timbío"},
+    "etiquetas": ["panela", "jengibre"]
+  },
+  {
+    "_id": "PROD-008",
+    "nombre": "Fresa Fresca 500g",
+    "categoria": "Fresa",
+    "productor_id": "PRD-002",
+    "precio": {"valor": 9000, "moneda": "COP", "unidad": "500 g"},
+    "inventario": {"stock": 40, "bodega": "Silvia"},
+    "etiquetas": ["fresa", "fresca"],
+    "atributos": {"variedad": "Albión", "dias_vida_util": 4}
+  },
+  {
+    "_id": "PROD-009",
+    "nombre": "Mermelada de Fresa 300g",
+    "categoria": "Fresa",
+    "productor_id": "PRD-002",
+    "precio": {"valor": 12000, "moneda": "COP", "unidad": "300 g"},
+    "inventario": {"stock": 70, "bodega": "Silvia"},
+    "etiquetas": ["fresa", "mermelada", "artesanal"]
+  },
+  {
+    "_id": "PROD-010",
+    "nombre": "Panela Cubitos 250g",
+    "categoria": "Panela",
+    "productor_id": "PRD-004",
+    "precio": {"valor": 3500, "moneda": "COP", "unidad": "250 g"},
+    "inventario": {"stock": 400, "bodega": "Timbío"},
+    "etiquetas": ["panela", "cubitos"]
+  },
+  {
+    "_id": "PROD-011",
+    "nombre": "Quesillo Payanés 500g",
+    "categoria": "Quesillo",
+    "productor_id": "PRD-005",
+    "precio": {"valor": 16000, "moneda": "COP", "unidad": "500 g"},
+    "inventario": {"stock": 80, "bodega": "Popayán"},
+    "etiquetas": ["quesillo", "lácteo"],
+    "atributos": {"leche": "Vaca", "refrigerado": true}
+  },
+  {
+    "_id": "PROD-012",
+    "nombre": "Queso Campesino 500g",
+    "categoria": "Quesillo",
+    "productor_id": "PRD-005",
+    "precio": {"valor": 14000, "moneda": "COP", "unidad": "500 g"},
+    "inventario": {"stock": 0, "bodega": "Popayán"},
+    "etiquetas": ["queso", "lácteo"]
+  },
+  {
+    "_id": "PROD-013",
+    "nombre": "Miel de Abejas 350g",
+    "categoria": "Otros",
+    "productor_id": "PRD-006",
+    "precio": {"valor": 22000, "moneda": "COP", "unidad": "350 g"},
+    "inventario": {"stock": 45, "bodega": "Silvia"},
+    "etiquetas": ["miel", "natural"],
+    "atributos": {"floracion": "Montaña"}
+  },
+  {
+    "_id": "PROD-014",
+    "nombre": "Papa Criolla 2kg",
+    "categoria": "Otros",
+    "productor_id": "PRD-002",
+    "precio": {"valor": 11000, "moneda": "COP", "unidad": "2 kg"},
+    "inventario": {"stock": 100, "bodega": "Silvia"},
+    "etiquetas": ["papa", "criolla"]
+  },
+  {
+    "_id": "PROD-015",
+    "nombre": "Mochila Tejida en Fique",
+    "categoria": "Otros",
+    "productor_id": "PRD-006",
+    "precio": {"valor": 58000, "moneda": "COP", "unidad": "unidad"},
+    "inventario": {"stock": 0, "bodega": "Silvia"},
+    "etiquetas": ["artesanía", "fique"]
+  }
+]
